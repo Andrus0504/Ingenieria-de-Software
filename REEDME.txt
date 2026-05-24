@@ -1,0 +1,19 @@
+Para el funcionamiento de este programa se es necesario:
+1. Tener postgreSQL
+2. Tener la base de datos de postgres
+3. Utilizar el backup adjunto al archivo
+Para utilizar el backup entra a pg admin -> crea una base de datos llamada tesis -> click derecho en 
+la base de datos -> optrime la opcion restore -> coloca el archivo en el apartado del archivo ->
+en usuario utiliza postgres
+4. En el archivo main se tendra que modificar el apratado password, cambia "my_password" por la contraseña
+que establesiste al momento de instalar postgreSQL
+5. Inicial el programa desde el archivo main.py
+ 
+Ya en el programa
+a la izquierda de la pantalla se muesran dos opciones Consultar tesis y Registrar tesis en caso de que 
+sigas en la pantalla inicial la funcion Consultar tesis no hara nada en caso de ser seleccionada ya que
+ahi es donde estas. La opcion Registrar tesis te llevara a un apartado en el cual pedira lo necesario para 
+ingresar los que se necesita para la tesis.
+
+En la ventana de consultar tesis, existen dos recuadros en la parte superior derecha uno para buscar de
+manera general mientras que el otro permite ver otras tablas relacionadas.
